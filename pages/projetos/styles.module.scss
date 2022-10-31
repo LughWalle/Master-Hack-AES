@@ -1,0 +1,38 @@
+.container {
+  .content {
+    .hero {
+      display: flex;
+      background-image: url(../../asserts/Hero.png);
+      width: 100vw;
+      height: 100vh;
+      flex-direction: column;
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: center;
+      padding-top: 16rem;
+    }
+    .section {
+      padding: 3.5rem;
+      display: flex;
+      flex-direction: column;
+
+      .titulo {
+        font-size: 6.4rem;
+        align-self: center;
+      }
+      .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 17rem;
+        font-size: 4rem;
+        font-weight: 400;
+        .card {
+          display: flex;
+          .right {
+            direction: rtl;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.modal {
+    background-color: rgb(223, 27, 27);
+    width: 40rem;
+    height: 60rem;
+    margin: 70rem auto;
+    background-color: #F2FAFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 400;
+    padding: 3.2rem;
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        .labelInput {
+            display: flex;
+            flex-direction: column;
+            .input {
+                border-radius: 1.5rem;
+                padding: 0.5rem;
+            }
+        }
+        .btn {
+            align-self: center;
+            border-radius: 1.5rem;
+            padding: 1rem 3.2rem;
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+            line-height: 1.9rem;
+            color: #FFF;
+            background-color: #12256B;
+        }
+
+    }
+}

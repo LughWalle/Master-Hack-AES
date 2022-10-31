@@ -8,7 +8,7 @@ const Modal = ({ className, modalRef }) => {
   useState;
   return (
     <div ref={modalRef} className={cx(styles[className], styles.modal)}>
-      <h1>Cadastr-se em nosso consórcio</h1>
+      <h1>Cadastre-se em nosso consórcio</h1>
       <form className={styles.form}>
         <p>Levando energia com taxas reduzidas e sem burocracia</p>
         <label className={styles.labelInput} htmlFor="">
